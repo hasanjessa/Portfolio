@@ -1,49 +1,58 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiVisualstudiocode,
-  SiPostman,
-  SiIntellijidea,
-  SiJira,
-  SiFigma,
-  SiBitbucket,
-  SiSourcetree,
-  SiGithub,
-  SiDocker,
+  DiJavascript1,
+  DiReact,
+  DiNodejs,
+  DiGit,
+  DiJava,
+  DiJavascript,
+  DiSass,
+  DiAngularSimple,
+  DiHtml5,
+  DiCss3,
+} from "react-icons/di";
+import {
+  SiPostgresql,
+  SiRedux,
+  SiExpress,
+  SiVercel,
+  SiSpringboot,
+  SiTypescript,
+  SiElasticsearch,
+  SiJquery,
+  SiNodemon
 } from "react-icons/si";
 
-function Toolstack() {
+function BackendTechstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiDocker />
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiSpringboot />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiIntellijidea />
+        <SiExpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJira />
+        <SiNodemon />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFigma />
+        <SiElasticsearch />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiBitbucket />
+        <SiVercel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSourcetree />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGithub />
+        <SiPostgresql />
       </Col>
     </Row>
   );
 }
 
-export default Toolstack;
+export default BackendTechstack;

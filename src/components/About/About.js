@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
-import Techstack from "./Techstack";
+import FrontendTechstack from "./FrontendTechstack";
+import BackendTechstack from "./BackendTechstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
@@ -35,10 +36,16 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          Frontend <strong className="purple">Skills </strong>
         </h1>
 
-        <Techstack />
+        <FrontendTechstack />
+
+        <h1 className="project-heading">
+          Backend <strong className="purple">Skills </strong>
+        </h1>
+
+        <BackendTechstack />
 
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
