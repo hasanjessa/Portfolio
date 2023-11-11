@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Hasan Jessa </span>
             from <span className="purple"> Dallas, Texas.</span>
             <br />
-            Additionally, I am currently employed as a software developer at
+            I am currently employed as a software developer at
             Talent Pathway.
             <br />
             <br />
@@ -28,11 +28,6 @@ function AboutCard() {
               <ImPointRight /> Traveling
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Hasan</footer>
         </blockquote>
       </Card.Body>
     </Card>

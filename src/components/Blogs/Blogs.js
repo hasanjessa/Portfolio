@@ -3,13 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import BlogCards from "./BlogCards";
 import Particle from "../Particle";
 
-// replace below images later
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import AngvsReact from "../../Assets/Projects/AngvsReact.png";
+import redux from "../../Assets/Projects/redux.png";
+import aiml from "../../Assets/Projects/aiml.png";
+import unittesting from "../../Assets/Projects/unittesting.jpg";
+import sqlvsnosql from "../../Assets/Projects/sqlvsnosql.png";
 
 function Blogs() {
   return (
@@ -20,75 +18,54 @@ function Blogs() {
           My Recent <strong className="purple">Blogs </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few blogs I've worked on recently.
+          Here are a few blogs I've written recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <BlogCards
-              imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              // ghLink="https://github.com/soumyajit4419/Chatify"
-              // demoLink="https://chatify-49.web.app/"
+              imgPath={AngvsReact}
+              title="Angular vs React"
+              description="Angular vs. React: A Comprehensive Comparison for Frontend Development."
+              link="https://medium.com/@hnjessa/angular-vs-react-a-comprehensive-comparison-for-frontend-development-7c7e82fa9218"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <BlogCards
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              // demoLink="https://blogs.soumya-jit.tech/"
+              imgPath={redux}
+              title="Redux Toolkit & State Management"
+              description="Harnessing the Power of State Management with Redux Toolkit: Benefits and Best Practices."
+              link="https://medium.com/@hnjessa/harnessing-the-power-of-state-management-with-redux-toolkit-benefits-and-best-practices-36665e5bfd07"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <BlogCards
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              // ghLink="https://github.com/soumyajit4419/Editor.io"
-              // demoLink="https://editor.soumya-jit.tech/"              
+              imgPath={unittesting}
+              title="Unit Testing"
+              description="The Crucial Role of Unit Testing: Writing Testable Code with Small Functions."
+              link="https://medium.com/@hnjessa/the-crucial-role-of-unit-testing-writing-testable-code-with-small-functions-4181c1d25004"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <BlogCards
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              // ghLink="https://github.com/soumyajit4419/Plant_AI"
-              // demoLink="https://plant49-ai.herokuapp.com/"
+              imgPath={aiml}
+              title="Artificial Intelligence/Machine Learning"
+              description="The Transformative Impact of Artificial Intelligence and Machine Learning on the Programming World."
+              link="https://medium.com/@hnjessa/the-transformative-impact-of-artificial-intelligence-and-machine-learning-on-the-programming-world-d3060248d13a"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <BlogCards
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              imgPath={sqlvsnosql}
+              title="SQL vs NoSQL"
+              description="SQL vs. NoSQL: Unraveling the Differences in Database Management."
+              link="https://medium.com/@hnjessa/sql-vs-nosql-unraveling-the-differences-in-database-management-97e5b115557a"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <BlogCards
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
