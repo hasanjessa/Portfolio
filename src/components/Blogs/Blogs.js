@@ -3,11 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import BlogCards from "./BlogCards";
 import Particle from "../Particle";
 
-import AngvsReact from "../../Assets/Projects/AngvsReact.png";
-import redux from "../../Assets/Projects/redux.png";
-import aiml from "../../Assets/Projects/aiml.png";
-import unittesting from "../../Assets/Projects/unittesting.jpg";
-import sqlvsnosql from "../../Assets/Projects/sqlvsnosql.png";
+import AngvsReact from "../../Assets/Blogs/AngvsReact.png";
+import redux from "../../Assets/Blogs/redux.png";
+import aiml from "../../Assets/Blogs/aiml.png";
+import unittesting from "../../Assets/Blogs/unittesting.jpg";
+import sqlvsnosql from "../../Assets/Blogs/sqlvsnosql.png";
 
 function Blogs() {
   return (
