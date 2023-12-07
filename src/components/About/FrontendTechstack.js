@@ -57,4 +57,4 @@ function FrontendTechstack() {
   );
 }
 
-export default FrontendTechstack;
+export default FrontendTechstack
